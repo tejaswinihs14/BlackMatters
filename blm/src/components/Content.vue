@@ -3,7 +3,7 @@
         <h1 class="title" >{{title}}</h1>
         <p class="timestamp">{{timestamp}}</p>
         <p class="desc">{{desc}}</p>
-         <img class="avatar" src ="{{avatar}}" />
+        <!-- <div class="avatar"><img :src=" "></div> -->
     </div>
 </template>
 
@@ -12,6 +12,7 @@
     export default {
         name:"Content",
         props: ['title','timestamp','desc','avatar']
+       
     }
     
 </script>
@@ -23,6 +24,8 @@
     color: black;
     border-bottom: 2px solid grey;
     margin-top: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .title{
@@ -49,8 +52,8 @@
 }
 
 .avatar{
-    height:50px;
-    width:50px;
+    height:100%;
+    width:100%;
     border: 1px solid black;
 }
 

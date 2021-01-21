@@ -19,7 +19,7 @@ import Content from './Content.vue';
                             title:'“We Keep Us Safe” Community Call Video',
                             timestamp: 'January 18, 2021',
                             desc: 'As MLK famously said, “Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.” On Monday, Black Lives Matter Global Network will launch its newest arts and culture endeavor centering life, love, joy, rest, and pleasure…',
-                            avatar: ''
+                            avatar: "https://unsplash.com/photos/A4BP8yAx8ME"
                         },
                         {
                             title:'Black Lives Matter Global Network Launches New MLK Artist Series',
